@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import MyApp from "./components/ContextWithReducer/MyApp";
+import WithUseState from "./components/DataFetching/WithUseState";
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <ReducerApp></ReducerApp> */}
       {/* <ReducerApp2></ReducerApp2> */}
       {/* <MultipleUseReducers></MultipleUseReducers> */}
-      <MyApp></MyApp>
+      {/* <MyApp></MyApp> */}
+      <WithUseState></WithUseState>
     </div>
   );
 }
