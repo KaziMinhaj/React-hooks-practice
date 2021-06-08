@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import MultipleUseReducers from "./components/UseReducerHook/MultipleUseReducers";
+import MyApp from "./components/ContextWithReducer/MyApp";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       {/* <ReducerApp></ReducerApp> */}
       {/* <ReducerApp2></ReducerApp2> */}
-      <MultipleUseReducers></MultipleUseReducers>
+      {/* <MultipleUseReducers></MultipleUseReducers> */}
+      <MyApp></MyApp>
     </div>
   );
 }
